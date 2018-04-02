@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>G-M</title>
+    <script src="js/zepto.min.js"></script>
+    <script src="js/iscroll.js"></script>
+    <script src="js/swiper-3.4.0.min (1).js"></script>
+    <script src="js/font.js"></script>
+    <script src="js/index.js"></script>
+     <link rel="stylesheet" type="text/css" href="css/clear.css"/>
+    <link rel="stylesheet" type="text/css" href="css/swiper.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/index.css"/>
+   
+</head>
+<body>
+	<div class="swiper-container-menu">
+		<div class="swiper-wrapper">
+			<div class="swiper-slide menu">
+				<div class="user-photo">
+					<img src="img/头像2.jpg" alt="" />
+					<a href="login.html">登陆/注册</a>
+				</div>
+				<ul>
+					<li><a href="list.html">
+							<i class="iconfont">&#xe608;</i>
+							<span>本地音乐</span>
+							<i class="iconfont">&#xe65e;</i>
+						</a></li>
+					<li><a href="list.html">
+							<i class="iconfont">&#xe7c9;</i>
+							<span>最近播放</span>
+							<i class="iconfont">&#xe65e;</i>
+						</a></li>
+					<li><a href="list.html">
+							<i class="iconfont">&#xe61f;</i>
+							<span>下载管理</span>
+							<i class="iconfont">&#xe65e;</i>
+						</a></li>
+					<li><a href="list.html">
+							<i class="iconfont">&#xe601;</i>
+							<span>喜欢的音乐</span>
+							<i class="iconfont">&#xe65e;</i>
+						</a></li>
+					<li><a href="list.html">
+							<i class="iconfont">&#xe634;</i>
+							<span>发现附近</span>
+							<i class="iconfont">&#xe65e;</i>
+						</a></li>
+				</ul>
+				
+				<div class="tool-bar">
+					<div class="left"><a href=""><i class="iconfont">&#xe645;</i><span>设置</span></a></div>
+					<div class="right"><a href=""><i class="iconfont">&#xe626;</i><span>退出</span></a></div>
+				</div>
+			</div>
+			<div class="swiper-slide content">
+			<div id="header">
+				<span class="iconfont menu-button">&#xe6dc;</span>
+				<div class="logo"><img src="img/logo.png"/></div>
+				<span class="search iconfont">&#xe625;</span>
+			</div>
+			
+			<div id="wrapper">
+				<div id="scroller">
+					<ul>
+						<li>
+							<div class="tabs">
+								<a href="javascript:;" class="active">首页</a>
+								<a href="javascript:;">推荐</a>
+								<a href="javascript:;">分类</a>
+								<a href="javascript:;">电台</a>
+								
+							</div>
+							<div class="swiper-container-banner">
+								<div class="swiper-wrapper">
+								    <div class="swiper-slide"><div class="txt"><span>Top  singes</span><span>Blank  space</span></div><a href="action1.html"><img src="img/banner1.jpg" alt="" /></a></div>
+								    <div class="swiper-slide"><div class="txt"><span>Top  singes</span><span>Blank  space</span></div><a href="action1.html" style="display:block;width:100% ;height:100%"><img src="img/banner2.jpeg" alt="" /></a></div>
+								    <div class="swiper-slide"><div class="txt"><span>Top  singes</span><span>Blank  space</span></div><a href="action1.html" style="display:block;width:100% ;height:100%"><img src="img/banner3.jpg" alt="" /></a></div>
+								   
+								</div>
+								<div class="pagination"></div>  
+							</div>
+							
+							<div class="swiper-container-index">
+								<div class="swiper-wrapper">
+								  <div class="swiper-slide">
+								  		<div class="content-slide content-slide-index" >
+								  			<div class="recommend-hot">
+								  				<div class="title-txt"><a href="list.html"><img src="img/热门推荐.png" alt="" /></a></div>
+								  				<div class="pic-box">
+								  					<div class="pic-1"><div class="des"><span>The  Jazz</span><span>爵士与迷人的嗓音</span></div></div>
+								  					<div class="pic-2"><div class="des"><span>The  Rock</span><span>尽情的摇滚</span></div></div>
+								  				</div>
+								  				
+								  			</div>
+								  			<div class="recommend-singer">
+								  				<div class="more"><a href="#">更多歌曲</a></div>
+								  				<div class="title-txt"><a href="list.html"><img src="img/歌手推荐.png" alt="" /></a></div>
+								  				<div class="singer">
+								  					<div class="person-pic"><img src="img/头像1.jpg" alt="" /></div>
+								  					<div class="info">
+								  						<a href="list.html">
+								  						<h3>艾薇儿·拉维尼</h3>
+								  						<span>Avril Lavigne</span>
+								  						<p>艾薇儿·拉维尼,1984年9月27日出生于加拿大安大略,加拿大女歌手、演员......  </p>
+								  						</a>
+								  					</div>
+								  					
+								  				</div>
+								  				<div class="singer">
+								  					<div class="person-pic"><img src="img/头像2.jpg" alt="" /></div>
+								  					<div class="info">
+								  						<a href="list.html">
+								  						<h3>贾斯汀·比伯</h3>
+								  						<span>Justin Bieber</span>
+								  						<p>贾斯汀·比伯，1994年3月1日出生于加拿大斯特拉特福加拿大歌手......</p>
+								  						</a>
+								  					</div>
+								  					
+								  				</div>
+								  				<div class="singer">
+								  					<div class="person-pic"><img src="img/头像3.jpg" alt="" /></div>
+								  					<div class="info">
+								  						<a href="list.html">
+								  						<h3>邓紫棋 </h3>
+								  						<span>G.E.M</span>
+								  						<p>邓紫棋，原名邓诗颖，1991年8月16日生于中国上海，中国香港创作型女歌手......</p>
+								  						</a>
+								  					</div>
+								  					
+								  				</div>
+								  				<div class="singer">
+								  					<div class="person-pic"><img src="img/头像4.jpg" alt="" /></div>
+								  					<div class="info">
+								  						<a href="list.html">
+								  						<h3>刘德华 </h3>
+								  						<span> Andy Lau</span>
+								  						<p>刘德华，1961年9月27日出生于中国香港，演员、....
+								  						</a>
+								  					</div>
+								  					
+								  				</div>
+								  				<div class="more sin"><a href="#">更多歌曲</a></div>
+								  			</div>
+								  			<div class="latest-mv">
+								  				<div class="title-txt"><img src="img/最新mv.png" alt="" /></div>
+								  				<div class="mv-box">
+								  					<div class="special-box">
+								  						<a href="list.html">
+								  						<img src="img/最新mv1.jpg" alt="" /></a>
+								  						<div class="cd-info">
+								  							<h3>《Sugar》</h3>
+								  							<p>《Sugar》是美国摇滚乐队魔力红演唱的一首流行歌曲</p>
+			  											
+								  						</div>
+								  					</div>
+								  					<div class="special-box">
+								  						<a href="list.html">
+								  						<img src="img/最新mv2.jpg" alt="" /></a>
+								  						<div class="cd-info">
+								  							<h3>《Rolling In the Deep》</h3>
+								  							<p>Adele怀着极其复杂的心情公布了她的全新唱片 “21”</p>
+			
+								  						</div>
+								  					</div>
+								  					<div class="special-box">
+								  						<a href="list.html">
+								  						<img src="img/最新mv3.jpg" alt="" /></a>
+								  						<div class="cd-info">
+								  							<h3>《相信自己无限极</h3>
+								  							<p>天王陈奕迅献唱公益歌曲 《相信自己无限极》号召众人突破极限</p>
+			
+								  						</div>
+								  					</div>
+								  					<div class="special-box">
+								  						<a href="list.html">
+								  						<img src="img/最新mv4.jpg" alt="" /></a>
+								  						<div class="cd-info">
+								  							<h3>《Orionからの招待状》</h3>
+								  							<p>相隔约6年之久的新专辑「三位一体」将于12月23日发售</p>
+			
+								  						</div>
+								  					</div>
+								  				</div>
+								  			</div>
+								  		</div>
+								  </div>
+								  <div class="swiper-slide">
+								  		<div class="content-slide content-slide-recommend content-slide-hot" >
+								  			<div class="recommend-hot">
+								  				<div class="title-txt"><img src="img/热门推荐.png" alt="" /></div>
+								  				<div class="pic-box">
+								  					
+								  					<a href="list.html"><div class="pic-1"><div class="des"><span>The  Jazz</span><span>爵士与迷人的嗓音</span></div></div></a>
+								  					<a href="list.html"><div class="pic-2"><div class="des"><span>The  Rock</span><span>尽情的摇滚</span></div></div></a>
+								  					<a href="list.html"><div class="pic-3"><div class="des"><span>The  Jazz</span><span>爵士与迷人的嗓音</span></div></div></a>
+								  					<a href="list.html"><div class="pic-4"><div class="des"><span>The  Rock</span><span>尽情的摇滚</span></div></div></a>
+								  				</div>
+								  				
+								  			</div>
+								  		</div>
+								  </div>
+								  <div class="swiper-slide">
+								  		<div class="content-slide content-slide-classify">
+								  			<div class="scene">
+								  				<div class="title-info">
+								  					<div class="left">
+								  						<span></span>
+								  						<span></span>
+								  						<h3>场景分类</h3>
+								  					</div>
+								  					<div class="more">更多歌单 <span>></span></div>
+								  				</div>
+								  				<div class="pic-container">
+								  					<div class="pic-box">
+								  						<a href="list.html">
+								  						<img src="img/场景分类2.jpg" alt="" /></a>
+								  						<div class="information">
+								  							<span class="txt">伤感</span>
+								  							<span class="erji iconfont">&#xe620;</span>
+								  							<span class="time">1234</span>
+								  						</div>
+								  					</div>
+								  					
+								  					<div class="pic-box">
+								  						<a href="list.html">
+								  						<img src="img/场景分类1.jpg" alt="" /></a>
+								  						<div class="information">
+								  							<span class="txt">散步</span>
+								  							<span class="erji iconfont">&#xe620;</span>
+								  							<span class="time">6786</span>
+								  						</div>
+								  					</div>
+								  					<div class="pic-box">
+								  						<a href="list.html">
+								  						<img src="img/场景.png" alt="" /></a>
+								  					</div>
+								  					
+								  					<div class="pic-box">
+								  						<a href="list.html">
+								  						<img src="img/场景分类3.jpg" alt="" /></a>
+								  						<div class="information">
+								  							<span class="txt">学习</span>
+								  							<span class="erji iconfont">&#xe620;</span>
+								  							<span class="time">23412</span>
+								  						</div>
+								  					</div>
+								  					<div class="pic-box">
+								  						<a href="list.html">
+								  						<img src="img/场景分类4.jpg" alt="" /></a>
+								  						<div class="information">
+								  							<span class="txt">一个人</span>
+								  							<span class="erji iconfont">&#xe620;</span>
+								  							<span class="time">12354</span>
+								  						</div>
+								  					</div>
+								  				</div>
+								  			</div>
+								  			<div class="style">
+								  				<div class="title-info">
+								  					<div class="left">
+								  						<span></span>
+								  						<span></span>
+								  						<h3>场景分类</h3>
+								  					</div>
+								  					<div class="more">更多歌单 <span>></span></div>
+								  				</div>
+								  				<div class="pic-container">
+								  					<div class="pic-box">
+								  						<a href="list.html">
+								  						<img src="img/风格分类2.jpg" alt="" /></a>
+								  						<div class="information">
+								  							<span class="txt">伤感</span>
+								  							<span class="erji iconfont">&#xe620;</span>
+								  							<span class="time">1234</span>
+								  						</div>
+								  					</div>
+								  					
+								  					<div class="pic-box">
+								  						<a href="list.html">
+								  						<img src="img/风格分类1.jpg" alt="" /></a>
+								  						<div class="information">
+								  							<span class="txt">散步</span>
+								  							<span class="erji iconfont">&#xe620;</span>
+								  							<span class="time">6786</span>
+								  						</div>
+								  					</div>
+								  					<div class="pic-box">
+								  						<a href="list.html">
+								  						<img src="img/风格.jpg" alt="" /></a>
+								  					</div>
+								  					
+								  					<div class="pic-box">
+								  						<a href="list.html">
+								  						<img src="img/风格分类3.jpg" alt="" /></a>
+								  						<div class="information">
+								  							<span class="txt">学习</span>
+								  							<span class="erji iconfont">&#xe620;</span>
+								  							<span class="time">23412</span>
+								  						</div>
+								  					</div>
+								  					<div class="pic-box">
+								  						<a href="list.html">
+								  						<img src="img/风格分类24jpg.jpg" alt="" /></a>
+								  						<div class="information">
+								  							<span class="txt">一个人</span>
+								  							<span class="erji iconfont">&#xe620;</span>
+								  							<span class="time">12354</span>
+								  						</div>
+								  					</div>
+								  				</div>
+								  			</div>
+								  		</div>
+								  </div>
+								   <div class="swiper-slide">
+								  		<div class="content-slide content-slide-station" >
+								  			<div class="station">
+								  				<div class="left">
+								  					<div class="bar"></div>
+								  					<div class="btn-container">
+								  						<span class="iconfont btn">&#xe607;</span>
+								  					</div>
+								  					
+								  				</div>
+								  				<div class="right">
+								  					<h3>聆听心声</h3>
+								  					<a href="action1.html">
+								  					<img src="img/电台1.jpg" alt="" /></a>
+								  					<div class="share">
+								  						<ul>
+								  							<li></li>
+								  							<li></li>
+								  							<li></li>
+								  							<li></li>
+								  							<li></li>
+								  						</ul>
+								  						<span class="iconfont share"></span>
+								  						<span class="iconfont xihuan"></span>
+								  					</div>
+								  				</div>
+								  				
+								  			</div>
+								  				<div class="station active">
+								  				<div class="left">
+								  					<div class="bar"></div>
+								  					<div class="btn-container">
+								  						<span class="iconfont btn">&#xe696;</span>
+								  					</div>
+								  					
+								  				</div>
+								  				<div class="right">
+								  					<h3>情感物语</h3>
+								  					<a href="action1.html">
+								  					<img src="img/电台2.jpg" alt="" /></a>
+								  					<div class="share">
+								  						<ul>
+								  							<li></li>
+								  							<li></li>
+								  							<li></li>
+								  							<li></li>
+								  							<li></li>
+								  						</ul>
+								  						
+								  						<span class="iconfont xihuan">&#xe697;</span>
+								  						<span class="iconfont shares">&#xe601;</span>
+								  					</div>
+								  				</div>
+								  				
+								  			</div>
+								  				<div class="station">
+								  				<div class="left">
+								  					<div class="bar"></div>
+								  					<div class="btn-container">
+								  						<span class="iconfont btn">&#xe607;</span>
+								  					</div>
+								  					
+								  				</div>
+								  				<div class="right">
+								  					<h3>音乐故事</h3>
+								  					<a href="action1.html">
+								  					<img src="img/电台3.jpg" alt="" /></a>
+								  					<div class="share">
+								  						<ul>
+								  							<li></li>
+								  							<li></li>
+								  							<li></li>
+								  							<li></li>
+								  							<li></li>
+								  						</ul>
+								  						<span class="iconfont share"></span>
+								  						<span class="iconfont xihuan"></span>
+								  					</div>
+								  				</div>
+								  				
+								  			</div>
+								  				<div class="station">
+								  				<div class="left">
+								  					<div class="bar"></div>
+								  					<div class="btn-container">
+								  						<span class="iconfont btn">&#xe607;</span>
+								  					</div>
+								  					
+								  				</div>
+								  				<div class="right">
+								  					<h3>心情物语</h3>
+								  					<a href="action1.html">
+								  					<img src="img/电台4.jpg" alt="" /></a>
+								  					<div class="share">
+								  						<ul>
+								  							<li></li>
+								  							<li></li>
+								  							<li></li>
+								  							<li></li>
+								  							<li></li>
+								  						</ul>
+								  						<span class="iconfont share"></span>
+								  						<span class="iconfont xihuan"></span>
+								  					</div>
+								  				</div>
+								  				
+								  			</div>
+								  			
+								  		</div>
+								  </div>
+								</div>
+							</div>
+						</li>	
+					</ul>
+				</div>
+			</div>	
+			<div id="footer">
+				<div class="pic"><img src="img/播放的头像.jpg" alt="" style="width: 100%;height: 100%;"/></div>
+				<div class="progress">
+					<div class="current-pro"><span class="cycle"></span></div>
+					
+					
+				</div>
+				<div class="music">
+					<h5>See  You  Again</h5>
+					<span class="time">04:59</span>
+				</div>
+				<div class="btn">
+					<span class="iconfont pause">&#xe696;</span>
+					<span class="iconfont next">&#xe604;</span>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>

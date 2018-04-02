@@ -1,0 +1,214 @@
+/*样式清零*/
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,img,div,fieldset,table,td,dl,dt,dd,input{padding:0; margin:0;font-size:100%; font-family: "微软雅黑","microsoft yahei"; color:#1a1a1a;}
+img{border:none; display: block;}
+ul,li{list-style:none;}
+input,select,textarea{outline:none;}
+textarea{resize:none;}
+a{text-decoration: none; }
+
+html,body{
+	width: 100%;
+	height: 100%;
+}
+.swiper-container{
+	width: 100%;
+	height: 100%;
+}
+.swiper-slide{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.swiper-slide-1{
+	background:#22212f ;
+}
+.swiper-slide-1 .bg{
+	width: 100%;
+	height: 7.85rem;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	background: url(../img/山丘.png) no-repeat 0 0;
+	background-size: 100% 100%;
+}
+.swiper-slide-1 .symbol-1{
+	width: 7.5rem;
+	height: 5.4rem;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	top: 1.54rem;
+	background: url(../img/yinfu.png) no-repeat 0 0;
+	background-size: 100% 100%;
+}
+.swiper-slide-1 h3{
+	position: absolute;
+	width: 100%;
+	font-size: 0.36rem;
+	left: 0;
+	bottom: 3.5rem;
+	text-align: center;
+	color: #fff;
+}
+.swiper-slide-1 p{
+	position: absolute;
+	width: 100%;
+	font-size: 0.48rem;
+	left: 0;
+	bottom: 2.74rem;
+	text-align: center;
+	color: #fff;
+}
+
+/*第二屏样式*/
+.swiper-slide-2{
+	background:url(../img/大背景.jpg) no-repeat 0 0 ;
+	background-size: 100% 100%;
+	filter: grayscale(20%);
+}
+.swiper-slide-2 .logo{
+	width: 7.5rem;
+	height: 5rem;
+	background: url(../img/logoy.png)no-repeat center ;
+	background-size: 100% 100%;
+	position: absolute;
+	top: 0.35rem;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+.swiper-slide-2 h3{
+	position: absolute;
+	width: 100%;
+	font-size: 0.48rem;
+	font-weight: 100;
+	left: 0;
+	top: 4.65rem;
+	text-align: center;
+	color: #fff;
+}
+.swiper-slide-2 p{
+	position: absolute;
+	width: 100%;
+	font-size: 0.36rem;
+	font-weight: 600;
+	left: 0;
+	bottom: 6.46rem;
+	text-align: center;
+	color: #fff;
+}
+.swiper-slide-2 .txt-bottom{
+	position: absolute;
+	width: 100%;
+	font-size: 0.24rem;
+	font-weight: 100;
+	left: 0;
+	bottom: 1.68rem;
+	text-align: center;
+	color: #fff;
+}
+.swiper-slide-2 .progress{
+	position: absolute;
+	left: 0;
+	right: 0;
+	width: 2.7rem;
+	height: 0.02rem;
+	margin: 0 auto;
+	bottom:2.12rem ;
+}
+.swiper-slide-2 .bar{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height:0.02rem;
+	background: #78797d;
+}
+.swiper-slide-2 .bar-p{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 1.14rem;
+	height: 0.02rem;
+	background: #2df1f0;
+}
+.swiper-slide-2 .bar-cycle{
+	width: 0.04rem;
+	height: 0.04rem;
+	position: absolute;
+	left: 1.12rem;
+	top: -0.01rem;
+	background: #fff;
+	border-radius: 50%;
+}
+
+/*第三屏样式*/
+.swiper-slide-3{
+	background:url(../img/大背景.jpg) no-repeat 0 0 ;
+	background-size: 100% 100%;
+	filter: grayscale(10%);
+}
+.swiper-slide-3 .txt-bg{
+	text-indent: -9999px;
+	position: absolute;
+	top: -0.4rem;left: 0.2rem;
+	left: 0.2rem;
+	right: 0;
+	margin: 0 auto;
+	width: 7.5rem;
+	height: 5rem;
+	background: url(../img/文字.png) no-repeat center;
+	background-size: 100% 100%;
+}
+.swiper-slide-3 .pic{
+	width: 7.5rem;
+	height: 5rem;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	top: 3rem;
+	background: url(../img/耳机.png) no-repeat center;
+	background-size: 100% 100%;
+}
+.swiper-slide-3 p{
+	position: absolute;
+	left: 0;
+	width: 100%;
+	font-size: 0.36rem;
+	color: #FFFFFF;
+	text-align: center;
+}
+.swiper-slide-3 p:nth-of-type(1){
+	bottom: 5.12rem;
+}
+.swiper-slide-3 p:nth-of-type(2){
+	bottom: 4.26rem;
+
+}
+.swiper-slide-3 .btn{
+	width: 3.02rem;
+	height: 0.82rem;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	bottom: 2.62rem;
+	background: url(../img/btn1.png) no-repeat 50% 50%;
+}
+.swiper-slide-3 .btn span{
+	position: absolute;
+	left: 0;
+	top: 0.1rem;
+	right: 0;
+	
+	margin:0 auto;
+	font-size: 0.48rem;
+	/*line-height: 0.82rem;*/
+	text-align: center;
+	color: #FFFFFF;
+}
+.swiper-pagination-bullet-active{
+	background: #2df1f0;
+}

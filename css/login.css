@@ -1,0 +1,161 @@
+
+#header {
+	position: absolute;
+	z-index: 9999;
+	top: 0;
+	left: 0;
+	width:7.5rem;
+	height: 1.3rem;
+	color: #eee;
+}
+
+
+#header .search{
+	float: right;
+	margin-right: 0.4rem;
+	margin-top: 0.4rem;
+	font-size: 0.4rem;
+	
+	
+}
+.back{
+	width: 100%;
+	height: 100%;
+	background: url(../img/大背景.jpg) no-repeat;
+	background-size: cover;
+	overflow: hidden;
+	
+}
+
+.logo{
+	width: 5rem;
+	height: 4rem;
+	margin: 0 auto;
+	margin-top: 1.2rem;
+	overflow: hidden;
+	text-align: center;
+	position: relative;
+}
+.logo img{
+	width: 100%;
+	height: 85%;
+}
+.logo span{
+	position: absolute;
+	right: 0;
+	left: 0;
+	margin: 0 auto;
+	margin-top:-0.6rem;
+	margin-left: 0.15rem;
+	font-size: 0.33rem;
+	color: #fff;
+}
+.title{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+.title h4{
+	font-size: 0.36rem;
+	text-align: center;
+	line-height: 0.5rem;
+	color: #fff;
+	margin: 0 auto;
+	font-weight: normal;
+}
+.title h3{
+	font-size: 0.48rem;
+	text-align: center;
+	line-height: 0.5rem;
+	color: #fff;
+	margin: 0 auto;
+	font-weight: normal;
+}
+.login{
+	width: 5.65rem;
+	height: 4.50rem;
+	margin: 0 auto;
+	margin-top: 0.8rem;
+}
+.login #user{
+	width: 100%;
+	height: 0.86rem;
+	background: #fff;
+	border: none;
+	border-radius: 0.05rem;
+	font-size: 0.3rem;
+	padding-left: 0.1rem;
+	box-sizing: border-box;
+	
+}
+.login #pass{
+	box-sizing: border-box;
+	width: 100%;
+	height: 0.86rem;
+	background: #fff;
+	border: none;
+	border-radius: 0.05rem;
+	font-size: 0.3rem;
+	padding-left: 0.1rem;
+}
+.login #btn{
+	width: 100%;
+	height: 0.86rem;
+	border: none;
+	border-radius: 0.05rem;
+	font-size: 0.35rem;
+	line-height: 0.86rem;
+	text-align: center;
+	color: #fff;
+	background: #1c1b25;
+}
+.login .reg-container{
+	width: 100%;
+	height: 0.86rem;
+	font-size: 0.28rem;
+	margin-top: 0.1rem;
+}
+.login .reg-container .reg{
+	float: left;
+	color: #ccc;
+}
+.login .reg-container .forget{
+	float: right;
+	color: #ccc;
+}
+.bottom-info{
+	width: 6.96rem;
+	height: 2rem;
+	margin: 0 auto;
+	overflow: hidden;
+	margin-top: 0.2rem;
+}
+.bottom-info .line{
+	width: 100%;
+	height: auto;
+	
+}
+.bottom-info .line span:nth-child(1),.bottom-info .line span:nth-child(3){
+	width: 2rem;
+	height: 0.03rem;
+	background: #fff;
+	float: left;
+	margin-top: 0.18rem;
+}
+.bottom-info .line span:nth-child(2){
+	font-size: 0.3rem;
+	float: left;
+	color: #fff;
+	padding: 0 0.2rem;
+}
+.bottom-info .other{
+	width: 100%;
+	margin-top: 0.8rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.bottom-info .other a{
+	color: #fff;
+	font-size: 0.5rem;
+}

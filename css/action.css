@@ -1,0 +1,193 @@
+
+.container{
+	width: 7.5rem;
+	height: 13.34rem;
+	position: relative;
+	background: url(../img/播放背景.jpg) no-repeat 0 0;overflow: hidden;
+	background-size: 7.5rem 13.34rem;
+}
+.header{
+	width: 7.5rem;
+	height: 1.42rem;
+	position: relative;
+	overflow: hidden;
+	line-height: 1.42rem;
+	background: #333043;
+	text-align: center;
+	
+}
+.header .retrun{
+	float: left;
+	margin-left: 0.22rem;
+	color: #fff;
+	font-size: 0.4rem;
+}
+.header .title{
+	width: 60%;
+	height: 100%;
+	display: inline-block;
+	text-align: center;
+	font-size: 0;
+}
+.header .title h3{
+	font-size: 0.35rem;
+	color: #fff;
+}
+.header .title span{
+	font-size: 0.24rem;
+	color: #fff;
+	display: block;
+	margin-top: -1rem;
+}
+.header .lists{
+	float: right;
+	margin-right: 0.22rem;
+	color: #fff;
+	font-size: 0.4rem;
+}
+.swiper-container{
+	width: 100%;
+	height: 4.35rem;
+	padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+}
+ .swiper-container .swiper-wrapper .swiper-slide {
+
+       width: 5.2rem;
+       height: 100%;
+
+    }
+.swiper-container img{
+	width: 100%;
+	height: 100%;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction{
+	bottom: 0;
+}
+.swiper-pagination-bullet{
+	width: 0.15rem;
+	height: 0.15rem;
+	background: #fff;
+	opacity: 1;
+}
+.swiper-pagination-bullet-active{
+	background: #2df1f0;
+}
+.swiper-container-txt{
+	
+	width: 70%;
+	height: 2rem;
+	margin: 0 auto;
+}
+.swiper-container-txt .swiper-wrapper .swiper-slide{
+	height: auto;
+	width: auto;
+	padding: 0.3rem 0;
+	color: #fff;
+	margin: 0 auto;
+	font-size:0.35rem;
+}
+.swiper-container-txt .swiper-wrapper .swiper-slide p{
+	text-align: center;
+}
+.swiper-container-txt .swiper-wrapper .swiper-slide-active{
+	color: #2df1f0;
+}
+.function-area{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: 3.8rem;
+	width: 100%;
+}
+.function-area .progress{
+	width: 6.3rem;
+	height: auto;
+	margin: auto;
+	
+}
+.function-area .progress span{
+	float: left;
+	color: #fff;
+	font-size: 0.24rem;
+	margin-top: 0.2rem;
+}
+.function-area .progress .total{
+	width: 5rem;
+	height: 0.08rem;
+	float: left;
+	background: #7a7a84;
+	margin: 0.1rem 0.04rem;
+	margin-top: 0.3rem;
+	border-radius: 0.08rem;
+	position: relative;
+	/*overflow: hidden;*/
+}
+.function-area .progress .total .now{
+	width: 40%;
+	height: 100%;
+	background: #2df1f0;
+	float: left;
+}
+.function-area .progress .total .cycle{
+	height: 0.2rem;
+	width: 0.2rem;
+	border-radius: 50%;
+	background: #fff;
+	position: absolute;
+	left:40% ;
+	top: -0.05rem;
+}
+.function-area .btn{
+	box-sizing: border-box;
+	margin-top: 1rem;
+	color: #fff;
+	width: 100%;
+	height: 1.45rem;
+	padding: 0 1.2rem;
+	font-weight: 100;
+	display: flex;
+	justify-content: space-around;
+}
+.function-area .btn .btn-left,.function-area .btn .btn-right{
+	font-size: 0.6rem;
+	line-height: 1.3rem;
+}
+.function-area .select{
+	box-sizing: border-box;
+	color: #fff;
+	width: 100%;
+	height: 1.45rem;
+	line-height: 1.45rem;
+	font-size: 0.5rem;
+	font-weight: 100;
+	display: flex;
+	justify-content: space-around;
+}
+.swiper-container-index .swiper-slide{
+	width: 7.5rem;
+	height: 13.34rem;
+}
+
+/*歌词轮播效果*/
+.swiper-container-txtT{
+	
+	width: 70%;
+	height: 3rem;
+	margin: 0 auto;
+	margin-top: 4rem;
+}
+.swiper-container-txtT .swiper-wrapper .swiper-slide{
+	height: auto;
+	width: auto;
+	padding: 0.3rem 0;
+	color: #fff;
+	margin: 0 auto;
+	font-size:0.35rem;
+}
+.swiper-container-txtT .swiper-wrapper .swiper-slide p{
+	text-align: center;
+}
+.swiper-container-txtT .swiper-wrapper .swiper-slide-active{
+	color: #2df1f0;
+}
